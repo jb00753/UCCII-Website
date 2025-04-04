@@ -1,0 +1,322 @@
+.dimmer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 1442px;
+    height: 720px;
+}
+.services1 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+}
+.page-title {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.have-a-look {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 32px;
+    text-align: left;
+    font-size: 24px;
+}
+.copy {
+    position: absolute;
+    top: 284px;
+    left: calc(50% - 422px);
+    width: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.button1 {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 16px;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 56px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+}
+.site-name {
+    position: absolute;
+    top: 67px;
+    left: 80px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 115px;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 29px;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.facility-overview {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items1 {
+    position: absolute;
+    top: 59px;
+    right: 47px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 796px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+}
+.horizon-living {
+    position: absolute;
+    top: 31px;
+    left: 29px;
+    font-size: 64px;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 505px;
+    height: 101px;
+    cursor: pointer;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #fff;
+    height: 164px;
+    overflow: hidden;
+    font-size: 25px;
+    color: #473d3d;
+}
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 28px;
+    right: 0px;
+    left: 0px;
+    background-color: #fff;
+    height: 164px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+}
+.header-with-image {
+    position: absolute;
+    top: -26px;
+    left: calc(50% - 721px);
+    width: 1442px;
+    height: 720px;
+    overflow: hidden;
+    background-image: url('Header with image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+}
+.fitness-classes {
+    align-self: stretch;
+    position: relative;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 600;
+}
+.a-subheading-for {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    color: #828282;
+}
+.button3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 24px;
+}
+.buttons {
+    width: 134px;
+    position: relative;
+    height: 60px;
+    color: #fff;
+}
+.copy1 {
+    position: absolute;
+    width: 35.78%;
+    top: 926px;
+    right: 58.67%;
+    left: 5.55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+.browse1 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 150%;
+    font-weight: 500;
+    color: inherit;
+}
+.copy2 {
+    position: absolute;
+    width: 35.78%;
+    top: 1790px;
+    right: 56.66%;
+    left: 7.56%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+.copy3 {
+    position: absolute;
+    width: 35.78%;
+    top: 1406px;
+    right: 5.69%;
+    left: 58.53%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+.services-child {
+    position: absolute;
+    top: 857px;
+    left: 825px;
+    background-color: #d9d9d9;
+    width: 535px;
+    height: 385px;
+}
+.services-item {
+    position: absolute;
+    top: 857px;
+    left: 832px;
+    width: 528px;
+    height: 385px;
+    object-fit: contain;
+}
+.services-inner {
+    position: absolute;
+    top: 857px;
+    left: 828px;
+    width: 527px;
+    height: 385px;
+    object-fit: contain;
+}
+.rectangle-div {
+    position: absolute;
+    top: 1279px;
+    left: 109px;
+    background-color: #d9d9d9;
+    width: 535px;
+    height: 385px;
+}
+.line-icon {
+    position: absolute;
+    top: 1279px;
+    left: 116px;
+    width: 528px;
+    height: 385px;
+    object-fit: contain;
+}
+.services-child1 {
+    position: absolute;
+    top: 1279px;
+    left: 112px;
+    width: 527px;
+    height: 385px;
+    object-fit: contain;
+}
+.services-child2 {
+    position: absolute;
+    top: 1767px;
+    left: 820px;
+    background-color: #d9d9d9;
+    width: 535px;
+    height: 385px;
+}
+.services-child3 {
+    position: absolute;
+    top: 1767px;
+    left: 827px;
+    width: 528px;
+    height: 385px;
+    object-fit: contain;
+}
+.services-child4 {
+    position: absolute;
+    top: 1767px;
+    left: 823px;
+    width: 527px;
+    height: 385px;
+    object-fit: contain;
+}
+.services {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 2255px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+

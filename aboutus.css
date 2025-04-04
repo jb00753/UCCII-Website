@@ -11,35 +11,35 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 14px 24px;
-    font-size: 16px;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
     color: #fff;
 }
 .items {
     position: absolute;
-    top: 56px;
-    right: 80px;
+    top: 3.5rem;
+    right: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 48px;
+    gap: 3rem;
 }
 .site-name {
     position: absolute;
-    top: 67px;
-    left: 80px;
+    top: 4.188rem;
+    left: 5rem;
     line-height: 150%;
     font-weight: 500;
 }
 .about-us1 {
-    width: 115px;
+    width: 7.188rem;
     position: relative;
     line-height: 150%;
     font-weight: 500;
     display: flex;
     align-items: center;
-    height: 29px;
+    height: 1.813rem;
     flex-shrink: 0;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -52,69 +52,69 @@
 }
 .items2 {
     position: absolute;
-    top: 59px;
-    right: 47px;
+    top: 3.688rem;
+    right: 2.938rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
-    width: 796px;
-    height: 45px;
+    width: 49.75rem;
+    height: 2.813rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 32px;
+    gap: 2rem;
 }
 .horizon-living {
     position: absolute;
-    top: 31px;
-    left: 29px;
-    font-size: 64px;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
     line-height: 150%;
     display: flex;
     font-family: 'Crimson Text';
     color: #1f4524;
     align-items: center;
-    width: 505px;
-    height: 101px;
+    width: 31.563rem;
+    height: 6.313rem;
     cursor: pointer;
 }
 .navigation2 {
     position: absolute;
     width: 100%;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
     background-color: #fff;
-    height: 164px;
+    height: 10.25rem;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 1.563rem;
     color: #473d3d;
 }
 .navigation1 {
     position: absolute;
     width: 100%;
-    top: 7px;
-    right: 0px;
-    left: 0px;
+    top: 0.438rem;
+    right: 0rem;
+    left: 0rem;
     background-color: #fff;
-    height: 164px;
+    height: 10.25rem;
     overflow: hidden;
 }
 .navigation {
     position: absolute;
     width: 100%;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
     background-color: #fff;
-    height: 164px;
+    height: 10.25rem;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .learn-more {
-    width: 131px;
+    width: 8.188rem;
     position: absolute;
     margin: 0 !important;
-    top: 8px;
+    top: 0.5rem;
     left: calc(50% - 65px);
     line-height: 150%;
     font-weight: 500;
@@ -123,17 +123,17 @@
 }
 .button4 {
     position: absolute;
-    top: 1574px;
-    left: 44px;
+    top: 98.375rem;
+    left: 2.75rem;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     background-color: #093b11;
-    width: 206px;
-    height: 52px;
+    width: 12.875rem;
+    height: 3.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 31px 20px 32px;
+    padding: 1.25rem 1.937rem 1.25rem 2rem;
     box-sizing: border-box;
     cursor: pointer;
     color: #fff;
@@ -153,199 +153,191 @@
 }
 .items3 {
     position: absolute;
-    top: 48px;
-    right: 533px;
-    width: 187px;
+    top: 3rem;
+    right: 33.313rem;
+    width: 11.688rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .items4 {
     position: absolute;
-    top: 48px;
-    right: 306px;
-    width: 187px;
+    top: 3rem;
+    right: 19.125rem;
+    width: 11.688rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .items5 {
     position: absolute;
-    top: 48px;
-    right: 80px;
-    width: 187px;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .horizon-living1 {
     position: absolute;
-    top: 34px;
-    left: 80px;
-    font-size: 48px;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
     line-height: 150%;
     font-family: 'Playfair Display';
     color: #fff;
 }
 .buttons-icon {
-    width: 40px;
+    width: 2.5rem;
     position: relative;
     border-radius: 4px;
-    height: 40px;
+    height: 2.5rem;
     object-fit: cover;
 }
 .social-icons {
     position: absolute;
-    top: 176px;
-    left: 80px;
+    top: 11rem;
+    left: 5rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
+    gap: 0.5rem;
 }
 .divider {
     position: absolute;
-    top: 0.5px;
-    left: 79.5px;
+    top: 0.031rem;
+    left: 4.969rem;
     border-top: 1px solid #e6e6e6;
     box-sizing: border-box;
-    width: 1281px;
-    height: 1px;
+    width: 80.063rem;
+    height: 0.063rem;
 }
 .navigation-footer {
     position: absolute;
     width: 100%;
-    right: -1564px;
-    bottom: -615px;
-    left: 1564px;
+    right: -97.75rem;
+    bottom: -38.437rem;
+    left: 97.75rem;
     background-color: #062c19;
-    height: 264px;
+    height: 16.5rem;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 1rem;
     color: #454545;
 }
 .about-us2 {
     position: absolute;
-    top: 639px;
-    left: 845px;
-    font-size: 48px;
+    top: 39.938rem;
+    left: 52.813rem;
+    font-size: 3rem;
     letter-spacing: -0.02em;
     font-weight: 600;
     font-family: 'Playfair Display';
     display: inline-block;
-    width: 624px;
+    width: 39rem;
 }
 .image-9-icon {
     position: absolute;
-    top: 639px;
-    left: 30px;
-    width: 750.4px;
-    height: 469px;
+    top: 39.938rem;
+    left: 1.875rem;
+    width: 46.9rem;
+    height: 29.313rem;
     object-fit: cover;
 }
 .about-us-child {
     position: absolute;
-    top: 723px;
-    left: 858px;
+    top: 45.188rem;
+    left: 53.625rem;
     background-color: #d9d9d9;
-    width: 576px;
-    height: 256px;
+    width: 36rem;
+    height: 16rem;
 }
 .about-us-item {
     position: absolute;
-    top: 164px;
-    left: 0px;
-    width: 1440px;
-    height: 377px;
+    top: 10.25rem;
+    left: 0rem;
+    width: 90rem;
+    height: 23.563rem;
     object-fit: contain;
 }
 .about-us-inner {
     position: absolute;
-    top: 151px;
-    left: 7px;
-    width: 1482px;
-    height: 403px;
+    top: 9.438rem;
+    left: 0.438rem;
+    width: 92.625rem;
+    height: 25.188rem;
 }
 .meet-our-staff {
     position: absolute;
-    top: 1193px;
-    left: 30px;
-    font-size: 48px;
+    top: 74.563rem;
+    left: 1.875rem;
+    font-size: 3rem;
     letter-spacing: -0.02em;
     font-weight: 600;
     font-family: 'Playfair Display';
     display: inline-block;
-    width: 469px;
-    height: 88px;
+    width: 29.313rem;
+    height: 5.5rem;
 }
 .image-18-icon {
     position: absolute;
-    top: 1193px;
-    left: 858px;
-    width: 576px;
-    height: 433px;
+    top: 74.563rem;
+    left: 53.625rem;
+    width: 36rem;
+    height: 27.063rem;
     object-fit: cover;
 }
 .rectangle-div {
     position: absolute;
-    top: 326px;
-    left: 961px;
+    top: 82.813rem;
+    left: 2.75rem;
     background-color: #d9d9d9;
-    width: 668px;
-    height: 27px;
+    width: 41.75rem;
+    height: 1.688rem;
 }
 .about-us-child1 {
     position: absolute;
-    top: 1325px;
-    left: 44px;
+    top: 85.875rem;
+    left: 2.75rem;
     background-color: #d9d9d9;
-    width: 668px;
-    height: 27px;
+    width: 41.75rem;
+    height: 1.688rem;
 }
 .about-us-child2 {
     position: absolute;
-    top: 1374px;
-    left: 44px;
+    top: 88.625rem;
+    left: 2.75rem;
     background-color: #d9d9d9;
-    width: 668px;
-    height: 27px;
+    width: 41.75rem;
+    height: 1.688rem;
 }
 .about-us-child3 {
     position: absolute;
-    top: 1418px;
-    left: 44px;
+    top: 91.688rem;
+    left: 2.75rem;
     background-color: #d9d9d9;
-    width: 668px;
-    height: 27px;
+    width: 41.75rem;
+    height: 1.688rem;
 }
 .about-us-child4 {
     position: absolute;
-    top: 1467px;
-    left: 44px;
+    top: 94.438rem;
+    left: 2.75rem;
     background-color: #d9d9d9;
-    width: 668px;
-    height: 27px;
-}
-.about-us-child5 {
-    position: absolute;
-    top: 1511px;
-    left: 44px;
-    background-color: #d9d9d9;
-    width: 536px;
-    height: 27px;
+    width: 33.5rem;
+    height: 1.688rem;
 }
 .our-mission {
-    width: 137px;
+    width: 8.563rem;
     position: absolute;
     margin: 0 !important;
-    top: 8px;
+    top: 0.5rem;
     left: calc(50% - 65px);
     line-height: 150%;
     font-weight: 500;
@@ -354,17 +346,17 @@
 }
 .button5 {
     position: absolute;
-    top: 1006px;
-    left: 858px;
+    top: 62.875rem;
+    left: 53.625rem;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     background-color: #093b11;
-    width: 206px;
-    height: 52px;
+    width: 12.875rem;
+    height: 3.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 31px 20px 32px;
+    padding: 1.25rem 1.937rem 1.25rem 2rem;
     box-sizing: border-box;
     cursor: pointer;
     color: #fff;
@@ -373,10 +365,10 @@
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 2012px;
+    height: 125.75rem;
     overflow: hidden;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #000;
     font-family: Inter;
 }
