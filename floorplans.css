@@ -1,0 +1,467 @@
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.site-name {
+    position: absolute;
+    top: 4.188rem;
+    left: 5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 7.188rem;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 1.813rem;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.services {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items1 {
+    position: absolute;
+    top: 3.688rem;
+    right: 2.938rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 49.75rem;
+    height: 2.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.horizon-living {
+    position: absolute;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 31.563rem;
+    height: 6.313rem;
+    cursor: pointer;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.563rem;
+    color: #473d3d;
+}
+.navigation {
+    position: absolute;
+    width: calc(100% + 2px);
+    top: 0rem;
+    right: -0.062rem;
+    left: -0.062rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+}
+.floor-plan-child {
+    position: absolute;
+    top: 10.438rem;
+    left: -2.5rem;
+    width: 95.063rem;
+    height: 0.194rem;
+    object-fit: contain;
+}
+.floor-plan-item {
+    position: absolute;
+    top: 17.688rem;
+    left: 9.938rem;
+    width: 70.125rem;
+    height: 0.131rem;
+    object-fit: contain;
+}
+.floor-plans1 {
+    position: absolute;
+    top: 12.938rem;
+    left: 39.125rem;
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    width: 11.688rem;
+    height: 3.625rem;
+}
+.image-16-icon {
+    width: 23.269rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 0rem;
+    left: 0rem;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+.card {
+    width: 25.25rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.image-15-icon {
+    width: 25.25rem;
+    position: relative;
+    max-height: 100%;
+    object-fit: contain;
+}
+.x-beds-x {
+    align-self: stretch;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.description {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #828282;
+}
+.x-sq-ft {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.copy {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.card1 {
+    width: 25.25rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+.image-15-icon1 {
+    width: 22.619rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -2.187rem;
+    left: -0.125rem;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+.card2 {
+    width: 22.5rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.card-grid {
+    position: absolute;
+    top: 23.688rem;
+    left: 2.563rem;
+    width: 85.75rem;
+    height: 33.438rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2rem 0rem;
+}
+.copy1 {
+    position: absolute;
+    top: 48.188rem;
+    left: 5.625rem;
+    width: 25.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.copy2 {
+    position: absolute;
+    top: 47.125rem;
+    left: 63.063rem;
+    width: 25.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.independence-living {
+    position: absolute;
+    top: 18.938rem;
+    left: 34.75rem;
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    width: 21.375rem;
+    height: 3.625rem;
+}
+.floor-plan-inner {
+    position: absolute;
+    top: 59.375rem;
+    left: 9.938rem;
+    width: 70.125rem;
+    height: 0.131rem;
+    object-fit: contain;
+}
+.copy3 {
+    position: absolute;
+    top: 85.125rem;
+    left: 5.188rem;
+    width: 25.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.copy4 {
+    position: absolute;
+    top: 84.063rem;
+    left: 62.625rem;
+    width: 25.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.assisted-living {
+    position: absolute;
+    top: 55.875rem;
+    left: 36rem;
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    width: 21.375rem;
+    height: 3.625rem;
+}
+.image-15-icon2 {
+    width: 25.225rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 0rem;
+    left: 0rem;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+.card3 {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 25.25rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.image-icon {
+    width: 26.75rem;
+    position: relative;
+    border-radius: 8px;
+    height: 21.313rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.card4 {
+    position: absolute;
+    top: 0rem;
+    left: 31.625rem;
+    width: 25.25rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+.image-16-icon1 {
+    width: 18.563rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -0.875rem;
+    left: -2rem;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+.card5 {
+    position: absolute;
+    top: 0rem;
+    left: 63.25rem;
+    width: 22.5rem;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.card-grid1 {
+    position: absolute;
+    top: 60.625rem;
+    left: 2.125rem;
+    width: 85.75rem;
+    height: 33.438rem;
+    overflow: hidden;
+}
+.topic {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+}
+.items2 {
+    position: absolute;
+    top: 3rem;
+    right: 32.313rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items3 {
+    position: absolute;
+    top: 3rem;
+    right: 18.625rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items4 {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.horizon-living1 {
+    position: absolute;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+.buttons-icon {
+    width: 2.5rem;
+    position: relative;
+    border-radius: 4px;
+    height: 2.5rem;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.divider {
+    position: absolute;
+    top: 0.031rem;
+    left: 4.969rem;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 80.063rem;
+    height: 0.063rem;
+}
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    right: 0rem;
+    bottom: 0.063rem;
+    left: 0rem;
+    background-color: #062c19;
+    height: 16.5rem;
+    overflow: hidden;
+    font-size: 1rem;
+    color: #454545;
+}
+.floor-plan {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 111.75rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.25rem;
+    color: #000;
+    font-family: Inter;
+}
+
