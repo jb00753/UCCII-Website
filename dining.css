@@ -1,0 +1,335 @@
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.site-name {
+    position: absolute;
+    top: 4.188rem;
+    left: 5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 7.188rem;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 1.813rem;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.services {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items1 {
+    position: absolute;
+    top: 3.688rem;
+    right: 2.938rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 49.75rem;
+    height: 2.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.horizon-living {
+    position: absolute;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 31.563rem;
+    height: 6.313rem;
+    cursor: pointer;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.563rem;
+    color: #473d3d;
+}
+.navigation {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: 0rem;
+    right: 0rem;
+    left: 0.625rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+}
+.dining-child {
+    position: absolute;
+    top: 10.438rem;
+    left: -2.5rem;
+    width: 95.063rem;
+    height: 0.194rem;
+    object-fit: contain;
+}
+.dining-item {
+    position: absolute;
+    top: 17.688rem;
+    left: 10.063rem;
+    width: 70.125rem;
+    height: 0.131rem;
+    object-fit: contain;
+}
+.topic {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+}
+.page3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.items2 {
+    position: absolute;
+    top: 3rem;
+    right: 32.75rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items3 {
+    position: absolute;
+    top: 3rem;
+    right: 18.875rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items4 {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.horizon-living1 {
+    position: absolute;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+.buttons-icon {
+    width: 2.5rem;
+    position: relative;
+    border-radius: 4px;
+    height: 2.5rem;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.divider {
+    position: absolute;
+    top: 0.031rem;
+    left: 4.969rem;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 80.063rem;
+    height: 0.063rem;
+}
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    right: 0rem;
+    bottom: -0.312rem;
+    left: 0rem;
+    background-color: #062c19;
+    height: 16.5rem;
+    overflow: hidden;
+    font-size: 1rem;
+    color: #454545;
+}
+.dining1 {
+    position: absolute;
+    top: 12.938rem;
+    left: 39.688rem;
+    font-size: 2.5rem;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    width: 11.688rem;
+    height: 3.625rem;
+}
+.heading {
+    width: 38.5rem;
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+    display: inline-block;
+}
+.at-horizon-living {
+    margin: 0;
+}
+.paragraph {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+}
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0rem 0rem 1rem;
+    font-size: 2rem;
+}
+.content2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0rem 0rem 1rem;
+}
+.content3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.rich-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+.content {
+    position: absolute;
+    top: 20.5rem;
+    left: 22.813rem;
+    width: 48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    font-size: 2.25rem;
+}
+.label-text {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+.state-layer {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem 1.5rem;
+}
+.button2 {
+    position: absolute;
+    top: 47.063rem;
+    left: 38.75rem;
+    border-radius: 100px;
+    background-color: #000;
+    width: 12.625rem;
+    height: 4.438rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-family: Roboto;
+}
+.image-18-icon {
+    position: absolute;
+    top: 57.563rem;
+    left: 25.563rem;
+    width: 36.575rem;
+    height: 27.5rem;
+    object-fit: cover;
+}
+.dining {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 103.813rem;
+    overflow: hidden;
+    opacity: 0.65;
+    text-align: left;
+    font-size: 1.25rem;
+    color: #000;
+    font-family: Inter;
+}
+
