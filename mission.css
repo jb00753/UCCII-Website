@@ -1,0 +1,349 @@
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.site-name {
+    position: absolute;
+    top: 4.188rem;
+    left: 5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 7.188rem;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 1.813rem;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.services {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items2 {
+    position: absolute;
+    top: 3.688rem;
+    right: 2.938rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 49.75rem;
+    height: 2.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.horizon-living {
+    position: absolute;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 31.563rem;
+    height: 6.313rem;
+    cursor: pointer;
+}
+.navigation-child {
+    position: absolute;
+    top: 46.438rem;
+    left: 58.625rem;
+    background-color: #d9d9d9;
+    width: 36rem;
+    height: 16rem;
+}
+.navigation2 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.563rem;
+    color: #473d3d;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0.438rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+}
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+}
+.topic {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+}
+.page6 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.items3 {
+    position: absolute;
+    top: 3rem;
+    right: 33.313rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items4 {
+    position: absolute;
+    top: 3rem;
+    right: 19.125rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items5 {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.horizon-living1 {
+    position: absolute;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+.buttons-icon {
+    width: 2.5rem;
+    position: relative;
+    border-radius: 4px;
+    height: 2.5rem;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.divider {
+    position: absolute;
+    top: 0.031rem;
+    left: 4.969rem;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    width: 80.063rem;
+    height: 0.063rem;
+}
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    background-color: #062c19;
+    height: 16.5rem;
+    overflow: hidden;
+    font-size: 1rem;
+    color: #454545;
+}
+.our-mission1 {
+    position: absolute;
+    top: 40.563rem;
+    left: 40.563rem;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+    display: inline-block;
+    width: 39rem;
+}
+.our-statement {
+    position: absolute;
+    top: 46.938rem;
+    left: 60.063rem;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+    display: inline-block;
+    width: 39rem;
+}
+.our-mission-child {
+    position: absolute;
+    top: 10.25rem;
+    left: 0rem;
+    width: 90rem;
+    height: 23.563rem;
+    object-fit: contain;
+}
+.compassionate-care {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.blank-line {
+    margin: 0;
+}
+.compassionate-care-container {
+    position: absolute;
+    top: 75.75rem;
+    left: calc(50% + 266.5px);
+    letter-spacing: -0.02em;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+    width: 16.375rem;
+    height: 6.813rem;
+}
+.image-18-icon {
+    position: absolute;
+    top: 10.125rem;
+    left: 0.25rem;
+    width: 92.813rem;
+    height: 29.813rem;
+    object-fit: cover;
+}
+.our-mission-item {
+    position: absolute;
+    top: 90.563rem;
+    left: 32.5rem;
+    background-color: #d9d9d9;
+    width: 41.75rem;
+    height: 1.688rem;
+}
+.our-mission-inner {
+    position: absolute;
+    top: 90.563rem;
+    left: 3.75rem;
+    background-color: #d9d9d9;
+    width: 86.25rem;
+    height: 1.688rem;
+}
+.rectangle-div {
+    position: absolute;
+    top: 93.625rem;
+    left: 3.75rem;
+    background-color: #d9d9d9;
+    width: 86.25rem;
+    height: 1.688rem;
+}
+.our-mission-child1 {
+    position: absolute;
+    top: 96.375rem;
+    left: 3.75rem;
+    background-color: #d9d9d9;
+    width: 86.25rem;
+    height: 1.688rem;
+}
+.our-mission-child2 {
+    position: absolute;
+    top: 99.438rem;
+    left: 3.75rem;
+    background-color: #d9d9d9;
+    width: 86.25rem;
+    height: 1.688rem;
+}
+.our-mission-child3 {
+    position: absolute;
+    top: 102.188rem;
+    left: 3.75rem;
+    background-color: #d9d9d9;
+    width: 69.188rem;
+    height: 1.688rem;
+}
+.at-horizon-living {
+    position: absolute;
+    top: 51.125rem;
+    left: 56.375rem;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #030101;
+    display: flex;
+    align-items: center;
+    width: 33.125rem;
+    height: 24.625rem;
+}
+.image-19-icon {
+    position: absolute;
+    top: 50.188rem;
+    left: 3rem;
+    width: 50.375rem;
+    height: 35rem;
+    object-fit: cover;
+}
+.our-mission {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 125.75rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.25rem;
+    color: #000;
+    font-family: Inter;
+}
+
+
