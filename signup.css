@@ -1,0 +1,382 @@
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.site-name {
+    position: absolute;
+    top: 4.188rem;
+    left: 5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 7.188rem;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 1.813rem;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.services {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items1 {
+    position: absolute;
+    top: 3.688rem;
+    right: 2.938rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 49.75rem;
+    height: 2.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.horizon-living {
+    position: absolute;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 31.563rem;
+    height: 6.313rem;
+    cursor: pointer;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.563rem;
+    color: #473d3d;
+}
+.navigation {
+    position: absolute;
+    width: calc(100% + 22px);
+    top: 0rem;
+    right: -0.687rem;
+    left: -0.687rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.25rem;
+}
+.topic {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+}
+.page3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.items2 {
+    position: absolute;
+    top: 3rem;
+    right: 31.875rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items3 {
+    position: absolute;
+    top: 3rem;
+    right: 18.438rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items4 {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.horizon-living1 {
+    position: absolute;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+.buttons-icon {
+    width: 2.5rem;
+    position: relative;
+    border-radius: 4px;
+    height: 2.5rem;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.divider {
+    position: absolute;
+    top: 0.031rem;
+    left: 4.969rem;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    width: 80.063rem;
+    height: 0.063rem;
+}
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    background-color: #062c19;
+    height: 16.5rem;
+    overflow: hidden;
+    color: #454545;
+}
+.company-logo-icon {
+    width: 5.25rem;
+    position: relative;
+    height: 2.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.dont-have-an {
+    position: relative;
+    line-height: 150%;
+}
+.sign-up1 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 150%;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.312rem;
+}
+.container {
+    width: 82rem;
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.navbar {
+    align-self: stretch;
+    height: 4.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.log-in {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+}
+.text {
+    width: 82rem;
+    position: relative;
+    font-size: 1.125rem;
+    line-height: 150%;
+    display: none;
+}
+.section-title {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+.email {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+}
+.text-input {
+    align-self: stretch;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 3.125rem;
+}
+.input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.button2 {
+    align-self: stretch;
+    background-color: #000;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+}
+.icon-google {
+    width: 1.5rem;
+    position: relative;
+    height: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button4 {
+    align-self: stretch;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    gap: 0.75rem;
+    color: #000;
+}
+.buttons {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+}
+.form {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: left;
+    font-size: 1rem;
+}
+.content1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 3rem;
+}
+.footer {
+    align-self: stretch;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.login-1 {
+    position: absolute;
+    top: 8.375rem;
+    left: 0rem;
+    background-color: #fff;
+    width: 84.5rem;
+    height: 51.813rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0rem 4rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Roboto;
+}
+.sign-up {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 78.063rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1rem;
+    color: #000;
+    font-family: Inter;
+}
+
