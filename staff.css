@@ -1,0 +1,548 @@
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.items {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.site-name {
+    position: absolute;
+    top: 4.188rem;
+    left: 5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+.about-us {
+    width: 7.188rem;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 1.813rem;
+    flex-shrink: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.services {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.items1 {
+    position: absolute;
+    top: 3.688rem;
+    right: 2.938rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
+    width: 49.75rem;
+    height: 2.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.horizon-living {
+    position: absolute;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Crimson Text';
+    color: #1f4524;
+    align-items: center;
+    width: 31.563rem;
+    height: 6.313rem;
+    cursor: pointer;
+}
+.navigation1 {
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    background-color: #fff;
+    height: 10.25rem;
+    overflow: hidden;
+    font-size: 1.563rem;
+    color: #473d3d;
+}
+.navigation {
+    position: absolute;
+    top: 0rem;
+    left: calc(50% - 737.5px);
+    background-color: #fff;
+    width: 92.188rem;
+    height: 10.25rem;
+    overflow: hidden;
+}
+.image-17-icon {
+    position: absolute;
+    top: 10.25rem;
+    left: 0rem;
+    width: 93.856rem;
+    height: 27.375rem;
+    object-fit: cover;
+}
+.topic {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+}
+.page3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.items2 {
+    position: absolute;
+    top: 3rem;
+    right: 33.063rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items3 {
+    position: absolute;
+    top: 3rem;
+    right: 19rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.items4 {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 11.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.horizon-living1 {
+    position: absolute;
+    top: 2.125rem;
+    left: 5rem;
+    font-size: 3rem;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+.buttons-icon {
+    width: 2.5rem;
+    position: relative;
+    border-radius: 4px;
+    height: 2.5rem;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.divider {
+    position: absolute;
+    top: 0.031rem;
+    left: 4.969rem;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    width: 80.063rem;
+    height: 0.063rem;
+}
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    background-color: #062c19;
+    height: 16.5rem;
+    overflow: hidden;
+    font-size: 1rem;
+    color: #454545;
+}
+.meet-the-team {
+    position: absolute;
+    top: 37.688rem;
+    left: 31.625rem;
+    font-size: 4rem;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+    display: inline-block;
+    width: 29.313rem;
+    height: 5.5rem;
+}
+.image-9 {
+    position: absolute;
+    top: 37.688rem;
+    left: 1.875rem;
+    width: 31rem;
+    height: 19.375rem;
+}
+.image-18-icon {
+    position: absolute;
+    top: 46.813rem;
+    left: 3.625rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.image-19-icon {
+    position: absolute;
+    top: 46.75rem;
+    left: 21.188rem;
+    width: 15.713rem;
+    height: 11.813rem;
+    object-fit: cover;
+}
+.image-18-icon1 {
+    position: absolute;
+    top: 46.813rem;
+    left: 38.688rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.staff-child {
+    position: absolute;
+    top: 60.875rem;
+    left: 4.688rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-item {
+    position: absolute;
+    top: 63.563rem;
+    left: 4.688rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.75rem;
+}
+.staff-inner {
+    position: absolute;
+    top: 60.75rem;
+    left: 22.063rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.75rem;
+}
+.rectangle-div {
+    position: absolute;
+    top: 63.5rem;
+    left: 22.063rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.staff-child1 {
+    position: absolute;
+    top: 60.75rem;
+    left: 40.563rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.75rem;
+}
+.staff-child2 {
+    position: absolute;
+    top: 63.5rem;
+    left: 40.563rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.image-28 {
+    position: absolute;
+    top: 37.688rem;
+    left: 36.875rem;
+    width: 31rem;
+    height: 19.375rem;
+}
+.image-29-icon {
+    position: absolute;
+    top: 46.75rem;
+    left: 55.75rem;
+    width: 15.713rem;
+    height: 11.813rem;
+    object-fit: cover;
+}
+.image-30-icon {
+    position: absolute;
+    top: 46.938rem;
+    left: 72.938rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.staff-child3 {
+    position: absolute;
+    top: 60.875rem;
+    left: 56.25rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child4 {
+    position: absolute;
+    top: 63.625rem;
+    left: 56.25rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child5 {
+    position: absolute;
+    top: 60.875rem;
+    left: 74.688rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.staff-child6 {
+    position: absolute;
+    top: 63.625rem;
+    left: 74.688rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.image-31 {
+    position: absolute;
+    top: 58.688rem;
+    left: 1.563rem;
+    width: 31rem;
+    height: 19.375rem;
+}
+.image-32-icon {
+    position: absolute;
+    top: 67.813rem;
+    left: 3.313rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.image-33-icon {
+    position: absolute;
+    top: 67.75rem;
+    left: 20.875rem;
+    width: 15.713rem;
+    height: 11.813rem;
+    object-fit: cover;
+}
+.image-34-icon {
+    position: absolute;
+    top: 67.813rem;
+    left: 38.375rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.staff-child7 {
+    position: absolute;
+    top: 81.875rem;
+    left: 4.375rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child8 {
+    position: absolute;
+    top: 84.563rem;
+    left: 4.375rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.75rem;
+}
+.staff-child9 {
+    position: absolute;
+    top: 81.75rem;
+    left: 21.75rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.75rem;
+}
+.staff-child10 {
+    position: absolute;
+    top: 84.5rem;
+    left: 21.75rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.staff-child11 {
+    position: absolute;
+    top: 81.75rem;
+    left: 40.25rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.75rem;
+}
+.staff-child12 {
+    position: absolute;
+    top: 84.5rem;
+    left: 40.25rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.image-35 {
+    position: absolute;
+    top: 58.688rem;
+    left: 36.563rem;
+    width: 31rem;
+    height: 19.375rem;
+}
+.image-36-icon {
+    position: absolute;
+    top: 67.75rem;
+    left: 55.438rem;
+    width: 15.713rem;
+    height: 11.813rem;
+    object-fit: cover;
+}
+.image-37-icon {
+    position: absolute;
+    top: 67.938rem;
+    left: 72.625rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.staff-child13 {
+    position: absolute;
+    top: 81.875rem;
+    left: 55.938rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child14 {
+    position: absolute;
+    top: 84.625rem;
+    left: 55.938rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child15 {
+    position: absolute;
+    top: 81.875rem;
+    left: 74.375rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.staff-child16 {
+    position: absolute;
+    top: 84.625rem;
+    left: 74.375rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.image-38 {
+    position: absolute;
+    top: 79.813rem;
+    left: 2.125rem;
+    width: 31rem;
+    height: 19.375rem;
+}
+.image-39-icon {
+    position: absolute;
+    top: 88.938rem;
+    left: 3.875rem;
+    width: 15.794rem;
+    height: 11.875rem;
+    object-fit: cover;
+}
+.image-40-icon {
+    position: absolute;
+    top: 88.875rem;
+    left: 20.75rem;
+    width: 15.713rem;
+    height: 11.813rem;
+    object-fit: cover;
+}
+.staff-child17 {
+    position: absolute;
+    top: 103rem;
+    left: 4.938rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.688rem;
+}
+.staff-child18 {
+    position: absolute;
+    top: 105.688rem;
+    left: 4.938rem;
+    background-color: #d9d9d9;
+    width: 14.25rem;
+    height: 1.75rem;
+}
+.staff-child19 {
+    position: absolute;
+    top: 102.875rem;
+    left: 21.625rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.75rem;
+}
+.staff-child20 {
+    position: absolute;
+    top: 105.625rem;
+    left: 21.625rem;
+    background-color: #d9d9d9;
+    width: 14.313rem;
+    height: 1.688rem;
+}
+.staff {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 129.25rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.25rem;
+    color: #000;
+    font-family: Inter;
+}
+
