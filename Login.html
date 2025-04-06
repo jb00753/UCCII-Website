@@ -1,221 +1,213 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="./login.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson Text:wght@700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
-  	
-  	
-  	
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  
+  <link rel="stylesheet" href="./login.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson Text:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
 </head>
 <body>
-  	
-  	<div class="login">
-    		<div class="navigation">
-      			<div class="items">
-        				<div class="page">Page</div>
-        				<div class="page">Page</div>
-        				<div class="page">Page</div>
-        				<div class="button">
-          					<div class="page">Button</div>
-        				</div>
-      			</div>
-      			<div class="site-name">Site name</div>
-      			<div class="navigation1">
-        				<div class="items1">
-          					<div class="about-us" id="aboutUsText">About Us</div>
-          					<div class="services" id="servicesText">Services</div>
-          					<div class="services" id="facilityOverviewText">Facility Overview</div>
-          					<div class="services" id="floorPlansText">Floor Plans</div>
-          					<div class="services" id="contactUsText">Contact Us</div>
-          					<div class="services" id="loginText">Login</div>
-        				</div>
-        				<b class="horizon-living" id="horizonLivingText">Horizon Living</b>
-      			</div>
-    		</div>
-    		<div class="navigation-footer">
-      			<div class="items2">
-        				<div class="topic">Topic</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-      			</div>
-      			<div class="items3">
-        				<div class="topic">Topic</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-      			</div>
-      			<div class="items4">
-        				<div class="topic">Topic</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-        				<div class="page3">Page</div>
-      			</div>
-      			<div class="horizon-living1">Horizon Living</div>
-      			<div class="social-icons">
-        				<img class="buttons-icon" alt="" src="Buttons / Icon.png">
-        				
-        				<img class="buttons-icon" alt="" src="Buttons / Icon.png">
-        				
-        				<img class="buttons-icon" alt="" src="Buttons / Icon.png">
-        				
-        				<img class="buttons-icon" alt="" src="Buttons / Icon.png">
-        				
-      			</div>
-      			<div class="divider">
-      			</div>
-    		</div>
-    		<div class="login-1">
-      			<div class="navbar">
-        				<div class="container">
-          					<div class="column">
-            						<img class="company-logo-icon" alt="" src="Company Logo.svg">
-            						
-          					</div>
-          					<div class="content">
-            						<div class="dont-have-an">Don't have an account?</div>
-            						<div class="sign-up">Sign Up</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div class="content1">
-        				<div class="section-title">
-          					<b class="log-in">Log In</b>
-          					<div class="text">Lorem ipsum dolor sit amet adipiscing elit.</div>
-        				</div>
-        				<div class="form">
-          					<div class="input">
-            						<div class="email">Email*</div>
-            						<div class="text-input">
-            						</div>
-          					</div>
-          					<div class="input">
-            						<div class="email">Password*</div>
-            						<div class="text-input">
-            						</div>
-          					</div>
-          					<div class="container1">
-            						<div class="buttons">
-              							<div class="button2">
-                								<div class="dont-have-an">Log in</div>
-              							</div>
-              							<div class="button4">
-                								<img class="icon-google" alt="" src="Icon / Google.svg">
-                								
-                								<div class="dont-have-an">Log in with Google</div>
-              							</div>
-            						</div>
-            						<div class="link">Forgot your password?</div>
-          					</div>
-        				</div>
-        				<div class="create-account-wrapper" id="frameContainer">
-          					<div class="create-account">Create Account</div>
-        				</div>
-      			</div>
-      			<div class="footer">
-        				<div class="dont-have-an">© 2022 Relume</div>
-      			</div>
-    		</div>
-  	</div>
-  	
-  	
-  	
-  	
-  	<script>
-    		var aboutUsText = document.getElementById("aboutUsText");
-    		if(aboutUsText) {
-      			aboutUsText.addEventListener("click", function (e) {
-        				window.location.href = "AboutUs.html"
-      			});
-    		}
-    		
-    		var servicesText = document.getElementById("servicesText");
-    		if(servicesText) {
-      			servicesText.addEventListener("click", function (e) {
-        				window.location.href = "Services.html"
-      			});
-    		}
-    		
-    		var facilityOverviewText = document.getElementById("facilityOverviewText");
-    		if(facilityOverviewText) {
-      			facilityOverviewText.addEventListener("click", function (e) {
-        				window.location.href = "Facilities.html"
-      			});
-    		}
-    		
-    		var floorPlansText = document.getElementById("floorPlansText");
-    		if(floorPlansText) {
-      			floorPlansText.addEventListener("click", function (e) {
-        				window.location.href = "FloorPlans.html"
-      			});
-    		}
-    		
-    		var contactUsText = document.getElementById("contactUsText");
-    		if(contactUsText) {
-      			contactUsText.addEventListener("click", function (e) {
-        				window.location.href = "ContactUs.html"
-      			});
-    		}
-    		
-    		var loginText = document.getElementById("loginText");
-    		if(loginText) {
-      			loginText.addEventListener("click", function (e) {
-        				window.location.href = "Login.html"
-      			});
-    		}
-    		
-    		var horizonLivingText = document.getElementById("horizonLivingText");
-    		if(horizonLivingText) {
-      			horizonLivingText.addEventListener("click", function (e) {
-        				window.location.href = "index.html"
-      			});
-    		}
-    		
-    		var viewServicesText = document.getElementById("viewServicesText");
-    		if(viewServicesText) {
-      			viewServicesText.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var copyContainer = document.getElementById("copyContainer");
-    		if(copyContainer) {
-      			copyContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var buttonContainer = document.getElementById("buttonContainer");
-    		if(buttonContainer) {
-      			buttonContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var buttonContainer1 = document.getElementById("buttonContainer1");
-    		if(buttonContainer1) {
-      			buttonContainer1.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var buttonContainer2 = document.getElementById("buttonContainer2");
-    		if(buttonContainer2) {
-      			buttonContainer2.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var buttonContainer3 = document.getElementById("buttonContainer3");
-    		if(buttonContainer3) {
-      			buttonContainer3.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}</script></body>
+  <div class="login">
+    <div class="navigation">
+      <div class="items">
+        <div class="page">Page</div>
+        <div class="page">Page</div>
+        <div class="page">Page</div>
+        <div class="button">
+          <div class="page">Button</div>
+        </div>
+      </div>
+      <div class="site-name">Site name</div>
+      <div class="navigation1">
+        <div class="items1">
+          <div class="about-us" id="aboutUsText">About Us</div>
+          <div class="services" id="servicesText">Services</div>
+          <div class="services" id="facilityOverviewText">Facility Overview</div>
+          <div class="services" id="floorPlansText">Floor Plans</div>
+          <div class="services" id="contactUsText">Contact Us</div>
+          <div class="services" id="loginText">Login</div>
+        </div>
+        <b class="horizon-living" id="horizonLivingText">Horizon Living</b>
+      </div>
+    </div>
+    <div class="navigation-footer">
+      <div class="items2">
+        <div class="topic">Topic</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+      </div>
+      <div class="items3">
+        <div class="topic">Topic</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+      </div>
+      <div class="items4">
+        <div class="topic">Topic</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+        <div class="page3">Page</div>
+      </div>
+      <div class="horizon-living1">Horizon Living</div>
+      <div class="social-icons">
+        <img class="buttons-icon" alt="" src="Buttons / Icon.png">
+        <img class="buttons-icon" alt="" src="Buttons / Icon.png">
+        <img class="buttons-icon" alt="" src="Buttons / Icon.png">
+        <img class="buttons-icon" alt="" src="Buttons / Icon.png">
+      </div>
+      <div class="divider"></div>
+    </div>
+    <div class="login-1">
+      <div class="navbar">
+        <div class="container">
+          <div class="column">
+            <img class="company-logo-icon" alt="" src="Company Logo.svg">
+          </div>
+          <div class="content">
+            <div class="dont-have-an">Don't have an account?</div>
+            <div class="sign-up">Sign Up</div>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="section-title">
+          <b class="log-in">Log In</b>
+          <div class="text">Lorem ipsum dolor sit amet adipiscing elit.</div>
+        </div>
+        <form id="loginForm" class="form">
+          <div class="input">
+            <div class="email">Email*</div>
+            <div class="text-input">
+              <input type="email" placeholder="Enter your email" name="email" required>
+            </div>
+          </div>
+          <div class="input">
+            <div class="email">Password*</div>
+            <div class="text-input">
+              <input type="password" placeholder="Enter your password" name="password" required>
+            </div>
+          </div>
+          <div class="container1">
+            <div class="buttons">
+              <div class="button2">
+                <button type="submit" class="dont-have-an">Log in</button>
+              </div>
+              <div class="button4">
+                <img class="icon-google" alt="" src="Icon / Google.svg">
+                <div class="dont-have-an">Log in with Google</div>
+              </div>
+            </div>
+            <div class="link">Forgot your password?</div>
+          </div>
+        </form>
+        <div class="create-account-wrapper">
+          <div class="create-account" id="createAccountLink">Create Account</div>
+        </div>
+        <!-- Popup Modal -->
+        <div id="loginPopup" class="popup">
+          <div class="popup-content">
+            <h2>Success!</h2>
+            <p>Login successful.</p>
+            <button id="closePopup">OK</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="dont-have-an">© 2022 Relume</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var aboutUsText = document.getElementById("aboutUsText");
+    if (aboutUsText) {
+      aboutUsText.addEventListener("click", function (e) {
+        window.location.href = "AboutUs.html";
+      });
+    }
+
+    var servicesText = document.getElementById("servicesText");
+    if (servicesText) {
+      servicesText.addEventListener("click", function (e) {
+        window.location.href = "Services.html";
+      });
+    }
+
+    var facilityOverviewText = document.getElementById("facilityOverviewText");
+    if (facilityOverviewText) {
+      facilityOverviewText.addEventListener("click", function (e) {
+        window.location.href = "Facilities.html";
+      });
+    }
+
+    var floorPlansText = document.getElementById("floorPlansText");
+    if (floorPlansText) {
+      floorPlansText.addEventListener("click", function (e) {
+        window.location.href = "FloorPlans.html";
+      });
+    }
+
+    var contactUsText = document.getElementById("contactUsText");
+    if (contactUsText) {
+      contactUsText.addEventListener("click", function (e) {
+        window.location.href = "ContactUs.html";
+      });
+    }
+
+    var loginText = document.getElementById("loginText");
+    if (loginText) {
+      loginText.addEventListener("click", function (e) {
+        window.location.href = "Login.html";
+      });
+    }
+
+    var horizonLivingText = document.getElementById("horizonLivingText");
+    if (horizonLivingText) {
+      horizonLivingText.addEventListener("click", function (e) {
+        window.location.href = "index.html";
+      });
+    }
+
+    // Login form handler
+    var loginForm = document.getElementById("loginForm");
+    var loginPopup = document.getElementById("loginPopup");
+    var closePopup = document.getElementById("closePopup");
+
+    if (loginForm) {
+      loginForm.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent default form submission (for demo)
+        loginPopup.style.display = "flex"; // Show popup
+        loginForm.reset(); // Clear form
+      });
+    }
+
+    if (closePopup) {
+      closePopup.addEventListener("click", function () {
+        loginPopup.style.display = "none"; // Hide popup
+      });
+    }
+
+    // Close popup when clicking outside
+    if (loginPopup) {
+      loginPopup.addEventListener("click", function (e) {
+        if (e.target === loginPopup) {
+          loginPopup.style.display = "none";
+        }
+      });
+    }
+
+    // Create Account link handler
+    var createAccountLink = document.getElementById("createAccountLink");
+    if (createAccountLink) {
+      createAccountLink.addEventListener("click", function (e) {
+        window.location.href = "SignUp.html";
+      });
+    }
+  </script>
+</body>
 </html>
