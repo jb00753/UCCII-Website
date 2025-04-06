@@ -1,10 +1,10 @@
 .dimmer {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 1442px;
-    height: 720px;
+    width: 90.125rem;
+    height: 45rem;
 }
 .services1 {
     align-self: stretch;
@@ -32,20 +32,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 32px;
+    padding: 1.25rem 2rem;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .copy {
     position: absolute;
-    top: 284px;
+    top: 17.75rem;
     left: calc(50% - 422px);
-    width: 844px;
+    width: 52.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 2.5rem;
 }
 .button1 {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
@@ -55,35 +55,35 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 14px 24px;
-    font-size: 16px;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
     color: #fff;
 }
 .items {
     position: absolute;
-    top: 56px;
-    right: 80px;
+    top: 3.5rem;
+    right: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 48px;
+    gap: 3rem;
 }
 .site-name {
     position: absolute;
-    top: 67px;
-    left: 80px;
+    top: 4.188rem;
+    left: 5rem;
     line-height: 150%;
     font-weight: 500;
 }
 .about-us {
-    width: 115px;
+    width: 7.188rem;
     position: relative;
     line-height: 150%;
     font-weight: 500;
     display: flex;
     align-items: center;
-    height: 29px;
+    height: 1.813rem;
     flex-shrink: 0;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -96,75 +96,75 @@
 }
 .items1 {
     position: absolute;
-    top: 59px;
-    right: 47px;
+    top: 3.688rem;
+    right: 2.938rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25) inset);
-    width: 796px;
-    height: 45px;
+    width: 49.75rem;
+    height: 2.813rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 32px;
+    gap: 2rem;
 }
 .horizon-living {
     position: absolute;
-    top: 31px;
-    left: 29px;
-    font-size: 64px;
+    top: 1.938rem;
+    left: 1.813rem;
+    font-size: 4rem;
     line-height: 150%;
     display: flex;
     font-family: 'Crimson Text';
     color: #1f4524;
     align-items: center;
-    width: 505px;
-    height: 101px;
+    width: 31.563rem;
+    height: 6.313rem;
     cursor: pointer;
 }
 .navigation1 {
     position: absolute;
     width: 100%;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
     background-color: #fff;
-    height: 164px;
+    height: 10.25rem;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 1.563rem;
     color: #473d3d;
 }
 .navigation {
     position: absolute;
     width: 100%;
-    top: 28px;
-    right: 0px;
-    left: 0px;
+    top: 1.75rem;
+    right: 0rem;
+    left: 0rem;
     background-color: #fff;
-    height: 164px;
+    height: 10.25rem;
     overflow: hidden;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #000;
 }
 .header-with-image {
     position: absolute;
-    top: -26px;
+    top: -1.625rem;
     left: calc(50% - 721px);
-    width: 1442px;
-    height: 720px;
+    width: 90.125rem;
+    height: 45rem;
     overflow: hidden;
     background-image: url('Header with image.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
-    font-size: 64px;
+    font-size: 4rem;
     color: #fff;
 }
 .fitness-classes {
     align-self: stretch;
     position: relative;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 120%;
     font-weight: 600;
 }
@@ -174,36 +174,68 @@
     line-height: 150%;
     color: #828282;
 }
-.button3 {
+/* New styles for .copy4 (Dining) */
+.copy4 {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    width: 35.78%; /* Matches others */
+    top: 141.875rem; /* 30rem below .copy2 */
+    right: 5.69%; /* Right side like .copy3 */
+    left: 58.53%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Adjust .button3 to match other buttons and remove absolute positioning */
+.button3 {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    background-color: #000;
+    background-color: #093b11; /* Consistent with other buttons */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    padding: 12px 24px;
+    justify-content: center; /* Center text */
+    padding: 0.75rem 1.5rem;
+    box-sizing: border-box; /* Ensure padding fits */
+    cursor: pointer;
+    color: #fff;
+}
+/* New image for .copy4 */
+.services-child5 {
+    position: absolute;
+    top: 140.438rem; /* 30rem below .services-child2 */
+    left: 6.813rem; /* Left side like .rectangle-div */
+    background-color: #d9d9d9;
+    width: 33.438rem;
+    height: 24.063rem;
+}
+.services-child6 {
+    position: absolute;
+    top: 140.438rem;
+    left: 7.25rem;
+    width: 33rem;
+    height: 24.063rem;
+    object-fit: contain;
 }
 .buttons {
-    width: 134px;
+    width: 8.375rem;
     position: relative;
-    height: 60px;
+    height: 3.75rem;
     color: #fff;
 }
 .copy1 {
     position: absolute;
     width: 35.78%;
-    top: 926px;
+    top: 57.875rem;
     right: 58.67%;
     left: 5.55%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .browse1 {
     position: relative;
@@ -215,107 +247,107 @@
 .copy2 {
     position: absolute;
     width: 35.78%;
-    top: 1790px;
+    top: 111.875rem;
     right: 56.66%;
     left: 7.56%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .copy3 {
     position: absolute;
     width: 35.78%;
-    top: 1406px;
+    top: 87.875rem;
     right: 5.69%;
     left: 58.53%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .services-child {
     position: absolute;
-    top: 857px;
-    left: 825px;
+    top: 53.563rem;
+    left: 51.563rem;
     background-color: #d9d9d9;
-    width: 535px;
-    height: 385px;
+    width: 33.438rem;
+    height: 24.063rem;
 }
 .services-item {
     position: absolute;
-    top: 857px;
-    left: 832px;
-    width: 528px;
-    height: 385px;
+    top: 53.563rem;
+    left: 52rem;
+    width: 33rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .services-inner {
     position: absolute;
-    top: 857px;
-    left: 828px;
-    width: 527px;
-    height: 385px;
+    top: 53.563rem;
+    left: 51.75rem;
+    width: 32.938rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .rectangle-div {
     position: absolute;
-    top: 1279px;
-    left: 109px;
+    top: 79.938rem;
+    left: 6.813rem;
     background-color: #d9d9d9;
-    width: 535px;
-    height: 385px;
+    width: 33.438rem;
+    height: 24.063rem;
 }
 .line-icon {
     position: absolute;
-    top: 1279px;
-    left: 116px;
-    width: 528px;
-    height: 385px;
+    top: 79.938rem;
+    left: 7.25rem;
+    width: 33rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .services-child1 {
     position: absolute;
-    top: 1279px;
-    left: 112px;
-    width: 527px;
-    height: 385px;
+    top: 79.938rem;
+    left: 7rem;
+    width: 32.938rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .services-child2 {
     position: absolute;
-    top: 1767px;
-    left: 820px;
+    top: 110.438rem;
+    left: 51.25rem;
     background-color: #d9d9d9;
-    width: 535px;
-    height: 385px;
+    width: 33.438rem;
+    height: 24.063rem;
 }
 .services-child3 {
     position: absolute;
-    top: 1767px;
-    left: 827px;
-    width: 528px;
-    height: 385px;
+    top: 110.438rem;
+    left: 51.688rem;
+    width: 33rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .services-child4 {
     position: absolute;
-    top: 1767px;
-    left: 823px;
-    width: 527px;
-    height: 385px;
+    top: 110.438rem;
+    left: 51.438rem;
+    width: 32.938rem;
+    height: 24.063rem;
     object-fit: contain;
 }
 .services {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 2255px;
+    height: 170.938rem; /* Should cover up to ~165rem (141.875rem + 24.063rem) */
     overflow: hidden;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #000;
     font-family: Inter;
 }

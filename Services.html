@@ -13,18 +13,20 @@
 </head>
 <body>
   	
-  	<div class="services">
-    		<div class="header-with-image">
-      			<div class="dimmer">
-      			</div>
-      			<div class="copy">
-        				<div class="page-title">
-          					<b class="services1">Services</b>
-        				</div>
-        				<div class="button">
-          					<div class="have-a-look">Have a look at what we offer!</div>
-        				</div>
-      			</div>
+    <div class="services">
+        <div class="header-with-image">
+            <div class="dimmer">
+            </div>
+            <div class="copy">
+                <div class="page-title">
+                    <b class="services1">Services</b>
+                </div>
+                <div class="button" id="servicesButton">
+                    <div class="have-a-look">Have a look at what we offer!</div>
+                </div>
+            </div>
+        </div>
+    </div>
       			<div class="navigation">
         				<div class="items">
           					<div class="have-a-look">Page</div>
@@ -58,42 +60,45 @@
       			</div>
     		</div>
     		<div class="copy2">
-      			<div class="fitness-classes">Social Activities</div>
-      			<div class="a-subheading-for">A subheading for this section, as long or as short as you like</div>
-      			<div class="buttons">
-        				<div class="button3">
-          					<a class="browse1" href="https://www.figma.com/design/tiTlRZEzOha1gyqSS7OFNo?node-id=2008-1173" target="_blank">Browse</a>
-        				</div>
-      			</div>
-    		</div>
-    		<div class="copy3">
-      			<div class="fitness-classes">Wellness Programs</div>
-      			<div class="a-subheading-for">A subheading for this section, as long or as short as you like</div>
-      			<div class="buttons">
-        				<div class="button3">
-          					<a class="browse1" href="https://www.figma.com/design/tiTlRZEzOha1gyqSS7OFNo?node-id=2008-1083" target="_blank">Browse</a>
-        				</div>
-      			</div>
-    		</div>
-    		<div class="services-child">
-    		</div>
-    		<img class="services-item" alt="" src="Line 29.svg">
-    		
-    		<img class="services-inner" alt="" src="Line 30.svg">
-    		
-    		<div class="rectangle-div">
-    		</div>
-    		<img class="line-icon" alt="" src="Line 29.svg">
-    		
-    		<img class="services-child1" alt="" src="Line 30.svg">
-    		
-    		<div class="services-child2">
-    		</div>
-    		<img class="services-child3" alt="" src="Line 29.svg">
-    		
-    		<img class="services-child4" alt="" src="Line 30.svg">
-    		
-  	</div>
+                <div class="fitness-classes">Social Activities</div>
+                <div class="a-subheading-for">A subheading for this section, as long or as short as you like</div>
+                <div class="buttons">
+                    <div class="button3" id="socialButton">
+                        <div class="browse1">Browse</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy3">
+                <div class="fitness-classes">Wellness Programs</div>
+                <div class="a-subheading-for">A subheading-for this section, as long or as short as you like</div>
+                <div class="buttons">
+                    <div class="button3" id="wellnessButton">
+                        <div class="browse1">Browse</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy4">
+                <div class="fitness-classes">Dining</div>
+                <div class="a-subheading-for">Enjoy delicious meals tailored to your needs</div>
+                <div class="buttons">
+                    <div class="button3" id="diningButton">
+                        <div class="browse1">Browse</div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-child5"></div>
+            <img class="services-child6" alt="" src="Line 29.svg">
+            <img class="services-child7" alt="" src="Line 30.svg">
+            <div class="services-child"></div>
+            <img class="services-item" alt="" src="Line 29.svg">
+            <img class="services-inner" alt="" src="Line 30.svg">
+            <div class="rectangle-div"></div>
+            <img class="line-icon" alt="" src="Line 29.svg">
+            <img class="services-child1" alt="" src="Line 30.svg">
+            <div class="services-child2"></div>
+            <img class="services-child3" alt="" src="Line 29.svg">
+            <img class="services-child4" alt="" src="Line 30.svg">
+            </div>
   	
   	
   	
@@ -147,5 +152,30 @@
         				window.location.href = "index.html"
       			});
     		}
+            var socialButton = document.getElementById("socialButton");
+    if (socialButton) {
+        socialButton.addEventListener("click", function () {
+            window.location.href = "Social.html";
+        });
+    }
+
+    var wellnessButton = document.getElementById("wellnessButton");
+    if (wellnessButton) {
+        wellnessButton.addEventListener("click", function () {
+            window.location.href = "Wellness.html";
+        });
+    }
+    var servicesButton = document.getElementById("servicesButton");
+    if (servicesButton) {
+        servicesButton.addEventListener("click", function () {
+            window.location.href = "AboutUs.html"; 
+        });
+    }
+    var diningButton = document.getElementById("diningButton");
+    if (diningButton) {
+        diningButton.addEventListener("click", function () {
+            window.location.href = "Dining.html";
+        });
+    }
     		</script></body>
 </html>
