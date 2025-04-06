@@ -43,38 +43,49 @@
     		<img class="contact-us-item" alt="" src="Line 1.svg">
     		
     		<div class="form">
-      			<div class="input">
-        				<div class="first-name">First name</div>
-        				<div class="field">
-          					<div class="label">Jane</div>
-        				</div>
-      			</div>
-      			<div class="input1">
-        				<div class="first-name">Last name</div>
-        				<div class="field">
-          					<div class="label">Smitherton</div>
-        				</div>
-      			</div>
-      			<div class="input2">
-        				<div class="first-name">Email address</div>
-        				<div class="field">
-          					<div class="label">email@janesfakedomain.net</div>
-        				</div>
-      			</div>
-      			<div class="phone-number">Phone Number</div>
-      			<div class="field3">
-        				<div class="label">470 111 11111</div>
-      			</div>
-      			<div class="input3">
-        				<div class="first-name">Your message</div>
-        				<div class="field">
-          					<div class="label">Enter your question or message</div>
-        				</div>
-      			</div>
-      			<div class="button2">
-        				<div class="page">Submit</div>
-      			</div>
-    		</div>
+                <form id="contactForm">
+                  <div class="input">
+                    <div class="first-name">First name</div>
+                    <div class="field">
+                      <input type="text" placeholder="Enter your first name" name="firstName" required>
+                    </div>
+                  </div>
+                  <div class="input1">
+                    <div class="first-name">Last name</div>
+                    <div class="field">
+                      <input type="text" placeholder="Enter your last name" name="lastName" required>
+                    </div>
+                  </div>
+                  <div class="input2">
+                    <div class="first-name">Email address</div>
+                    <div class="field">
+                      <input type="email" placeholder="Enter your email" name="email" required>
+                    </div>
+                  </div>
+                  <div class="phone-number">Phone Number</div>
+                  <div class="field3">
+                    <input type="tel" placeholder="Enter your phone number" name="phone" required>
+                  </div>
+                  <div class="input3">
+                    <div class="first-name">Your message</div>
+                    <div class="field">
+                      <textarea placeholder="Enter your question or message" name="message" rows="4" required></textarea>
+                    </div>
+                  </div>
+                  <div class="button2">
+                    <button type="submit">Submit</button>
+                  </div>
+                </form>
+              
+                <!-- Popup Modal -->
+                <div id="successPopup" class="popup">
+                  <div class="popup-content">
+                    <h2>Success!</h2>
+                    <p>Form submitted successfully.</p>
+                    <button id="closePopup">OK</button>
+                  </div>
+                </div>
+              </div>
     		<div class="heading">
       			<div class="contact-form">Contact Form</div>
     		</div>
@@ -234,5 +245,35 @@
       			buttonContainer3.addEventListener("click", function (e) {
         				// Add your code here
       			});
-    		}</script></body>
+    		}
+            
+            var contactForm = document.getElementById("contactForm");
+  var successPopup = document.getElementById("successPopup");
+  var closePopup = document.getElementById("closePopup");
+
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent default form submission (for demo purposes)
+
+      // Show the popup
+      successPopup.style.display = "flex";
+
+      // Optionally clear the form
+      contactForm.reset();
+    });
+  }
+
+  if (closePopup) {
+    closePopup.addEventListener("click", function () {
+      // Hide the popup
+      successPopup.style.display = "none";
+    });
+  }
+
+  // Close popup when clicking outside the content
+  successPopup.addEventListener("click", function (e) {
+    if (e.target === successPopup) {
+      successPopup.style.display = "none";
+    }
+  });</script></body>
 </html>
